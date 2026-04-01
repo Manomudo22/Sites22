@@ -59,7 +59,7 @@ ${isLast && totalChunks > 1 ? 'Esta é a última parte. Processe conforme a inst
 
 Responda APENAS com o conteúdo processado, bem formatado. Se for responder questões, numere as respostas. Não adicione explicações sobre o que você fez.`;
 
-    const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${apiKey}`;
+    const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-lite:generateContent?key=${apiKey}`;
 
     const response = await fetch(url, {
       method: 'POST',
